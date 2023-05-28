@@ -1,0 +1,62 @@
+@use "../utils/colors";
+
+header {
+  transition: ease all 1s;
+}
+
+#logo {
+  transition: ease all 2s;
+}
+.bubble-menu {
+  display: none; //Important!!!!!!!!!!!!!!!!!!!!
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  //display: grid;
+  width: auto;
+  grid-template-columns: 5em 2.5em 10em;
+  grid-template-rows: 2em 5em 6em;
+  div {
+    color: colors.$secondary-color;
+    background-color: colors.$accent1;
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    text-align: center;
+    align-items: center;
+  }
+  #menu {
+    position: static;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+  #contact {
+    position: static;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #phone {
+    position: relative;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-end: 2;
+  }
+  .bigger {
+    height: 10em;
+    width: 10em;
+  }
+  .middle {
+    height: 6em;
+    width: 6em;
+  }
+  .small {
+    height: 2.5em;
+    width: 2.5em;
+  }
+}

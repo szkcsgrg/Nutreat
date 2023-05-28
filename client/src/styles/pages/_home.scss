@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+}
+
+.landing {
+  padding-top: 35%;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 94vh;
+}
+#little_dots {
+  width: 30%;
+  rotate: -5deg;
+  position: absolute;
+  margin-left: 60%;
+}
+#shape_left {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+}
+#shape_right {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}
+
+.contact {
+  position: relative;
+  height: 40vh;
+}
+#contact_shape_right {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 30%;
+}
+#contact_image {
+  position: absolute;
+  right: 0.9em;
+  z-index: 0;
+  width: 23%;
+}
+#contact {
+  position: absolute;
+  z-index: -2;
+  width: 70%;
+  left: 2em;
+}

@@ -1,0 +1,46 @@
+@use "../utils/colors";
+
+h1 {
+  font-size: 1.6rem;
+  font-family: "Libre Bodoni", serif;
+  font-weight: bold;
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+p {
+  font-family: "Lora", serif;
+}
+a {
+  text-decoration: underline;
+  color: colors.$accent2;
+}
+button {
+  text-align: center;
+  padding: 0;
+  margin: 0.5em 0.5em;
+  font-size: 1.3rem;
+  width: 6em;
+  height: 2em;
+  font-family: "Libre Bodoni", serif;
+  border-radius: 0.75em;
+  a {
+    text-decoration: none;
+    line-height: 2.2em;
+    color: colors.$secondary-color;
+  }
+}
+.button_style_1 {
+  background-color: colors.$accent2;
+  border: 1px solid colors.$accent2;
+}
+// .button_style_1::hover {
+//   background-color: none;
+// }
+.button_style_2 {
+  background-color: none;
+  border: 1px solid colors.$accent2;
+}
